@@ -36,3 +36,21 @@ def containsDuplicate2 (nums: list[int]):
 
 # A funny two line method that uses the fact that a set does'nt store double intergers.
 # It is the fastest solution I did
+
+
+## Other intresting methods
+def containsDuplicate3 (nums: list[int]):
+     sortedNums = sorted(nums)
+     for i in range(0, len(sortedNums)):
+         if (i + 1) != len(sortedNums):
+            if sortedNums[i] == sortedNums[i + 1]: 
+             return True
+ 
+     return False
+
+
+## here the list is sorted and adjacent elements 
+# are compared one by one if they are equal if they are we return tre else
+# We return false
+
+ 
