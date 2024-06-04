@@ -52,5 +52,3 @@ def containsDuplicate3 (nums: list[int]):
 ## here the list is sorted and adjacent elements 
 # are compared one by one if they are equal if they are we return tre else
 # We return false
-
- 
