@@ -7,4 +7,7 @@ const twoSum = function (nums, target) {
 	}
 };
 
-// TODO Calculate the time and space complexity
+// Time complexity = 0n
+// Space complexity = 0(1)
+
+// THere is an hashmap solution to this but I don't know it... Will do it once I know it though
